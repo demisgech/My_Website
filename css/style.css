@@ -326,3 +326,24 @@ color: #fff;
 .plan .list__item {
     margin-bottom: 2rem;
 }
+
+.plan--popular .badge--secondary {
+    background: blue;
+}
+@media screen and  (min-idth:900px){
+    .plan__name {
+        font-size: 1.4rem;
+    }
+
+    .plan__price {
+        font-size: 5rem;
+    }
+
+    .plan__billing-cycle {
+        font-size: 1.6rem;
+    }
+
+    .plan__description {
+        font-size: 1.7rem;
+    }
+}
