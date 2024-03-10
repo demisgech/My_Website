@@ -403,8 +403,10 @@ color: #fff;
     }
 }
 
+/* Media */
 .media {
     display: flex;
+    margin-bottom: 4rem;
 }
 .media__body {
     margin: 0 2rem;
@@ -859,4 +861,25 @@ color: #fff;
     .feature:nth-of-type(even) .feature__content {
         order: 2;
     }
+}
+
+/* Showcase Block */
+.block-showcase__image > img{
+    max-width: 100%;
+}
+.block--dark .media__text {
+    color: #777;
+}
+@media screen and (min-width:768px) {
+    .block-showcase .grid {
+        grid-template-columns: 50% 50%;
+    }
+
+    .block-showcase__image {
+        justify-self: end;
+    }
+    .block-showcase__image>img {
+        width: auto;
+    }
+  
 }
