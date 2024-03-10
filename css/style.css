@@ -689,7 +689,7 @@ color: #fff;
     background: #000;
     color: #7b858b;
 }
-.block--dark h1, .block--dark h2, .block h3 {
+.block--dark h1, .block--dark h2, .block--dark h3 {
     color: #fff;
 }
 
@@ -834,4 +834,29 @@ color: #fff;
 .block-plans .card {
     max-width: 500px;
     margin: 0 auto;
+}
+
+
+/* Features */
+.feature {
+    gap: 4rem 2rem;
+    margin: 12rem 0;
+}
+
+.feature:first-of-type {
+    margin-top: 6rem;
+}
+
+.feature__heading {
+    margin: 1rem 0;
+}
+
+.feature__image {
+    width: 100%;
+}
+
+@media screen and (min-width:900px) {
+    .feature:nth-of-type(even) .feature__content {
+        order: 2;
+    }
 }
